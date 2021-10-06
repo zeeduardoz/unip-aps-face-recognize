@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>APS - Reconhecimento Facial</title>
+    <link rel="stylesheet" href="./assets/css/index.css" />
+  </head>
+  <body>
+    <img id="image" src="" />
+    <div>
+      <label for="upload">Selecione uma Imagem</label>
+      <input id="upload" type="file" accept=".jpg, .jpeg, .png" />
+    </div>
+    <canvas id="reflay" class="overlay"></canvas>
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+    <script src="./assets/lib/face-api/face-api.min.js"></script>
+    <script src="./assets/js/index.js"></script>
+  </body>
+</html>

@@ -1,0 +1,47 @@
+body {
+  background-color: black;
+  right: 50%;
+  bottom: 50%;
+  transform: translate(50%, 50%);
+  position: absolute;
+}
+
+img {
+  background: white;
+  border-radius: 10px;
+  width: 500px;
+  height: 500px;
+  background-size: cover;
+  background-position: center;
+}
+
+div {
+  position: absolute;
+  top: -50px;
+  margin: auto;
+  left: 0;
+  right: 0;
+}
+
+input[type="file"] {
+  display: none;
+}
+
+label {
+  background-color: blue;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  padding: 15px 25px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+#overlay,
+.overlay {
+  right: 50%;
+  bottom: 50%;
+  transform: translate(50%, 50%);
+  position: absolute;
+}
